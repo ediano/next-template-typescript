@@ -20,11 +20,11 @@
 *.pem
 
 # debug
-package-lock.json*
 npm-debug.log*
-yarn.lock*
 yarn-debug.log*
 yarn-error.log*
+yarn.lock*
+package-lock.json*
 
 # local env files
 .env.local

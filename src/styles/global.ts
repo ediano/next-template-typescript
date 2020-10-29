@@ -10,16 +10,13 @@ export default createGlobalStyle`
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
-
 body {
   background: ${props => props.theme.colors.background};
   color: ${props => props.theme.colors.text};
 }
-
 body {
   font-weight: 300
 }
-
 body,
 input,
 textarea,

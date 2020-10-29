@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import { Container } from '../styles/pages/Home'
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <Container>
       <Head>
