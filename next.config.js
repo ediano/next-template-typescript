@@ -8,6 +8,6 @@ module.exports = {
   bail: 1,
   clearMocks: true,
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.js'],
+  collectCoverageFrom: ['src/**/*.ts', 'src/**/*.tsx'],
   coverageReporters: ['lcov', 'text'],
 }
